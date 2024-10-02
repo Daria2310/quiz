@@ -137,3 +137,42 @@ button:hover:enabled {
     }
 }
 
+@media (width < 360px) {
+    main {
+        max-width: 10vw;
+        row-gap: 23px;
+    }
+
+    header {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 30px;
+    }
+
+    .score {
+        font-size: 30px;
+    }
+
+    #statement {
+        font-size: 25px;
+    }
+
+    #options, #next-question {
+        row-gap: 10px;
+        margin-top: 10px;
+    }
+
+    button {
+        padding: 20px;
+        font-size: 20px;
+        min-width: 30vw;
+    }
+    
+    #explanation {
+        padding: 10px;
+        font-size: 25px;
+    }
+}
+
