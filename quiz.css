@@ -1,0 +1,139 @@
+body {
+    padding: 10px 0;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    background-image: url("dna.jpg");
+}
+
+header {
+    margin: 1em auto;
+    text-align: center;
+}
+
+
+header p {
+    font-size: 30px;
+    min-width: 300px;
+    margin: 0px;
+}
+
+header p span {
+    color: #24bbfc;
+}
+
+
+main {
+    min-width: 25rem;
+    max-width: 50vw;
+    margin: 20px auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.score {
+    text-align: center;
+    font-size: x-large;
+    margin: 0px;
+}
+
+#statement {
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px gray;
+    padding: 1rem;
+    font-size: x-large;
+    text-align: center;
+    margin: 0px;
+    min-height: 2em;
+    background-color: #EBEDEC;
+    width: 50vw;
+}
+
+#explanation {
+    padding: 1rem;
+    font-size: x-large;
+    text-align: center;
+    margin: none;
+}
+
+.text-decoration {
+    background-color: #EBEDEC;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+
+#options, #next-question {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+button {
+    background-color: #E1ECF0;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 20vw;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+button:hover:enabled {
+    background-color: #d2ebf5;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightpink;
+}
+
+@media (width < 1400px) {
+    
+    main {
+        row-gap: 23px;
+    }
+
+    header {
+        font-size: small;
+    }
+
+    header p {
+        font-size: 25px;
+    }
+
+    .score {
+        font-size: 20px;
+    }
+
+    #statement {
+        font-size: 20px;
+    }
+
+    #options, #next-question {
+        row-gap: 10px;
+        margin-top: 10px;
+    }
+
+    button {
+        padding: 10px;
+    }
+    
+    #explanation {
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
