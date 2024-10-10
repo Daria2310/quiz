@@ -136,7 +136,7 @@ button:hover:enabled {
     }
 }
 
-@media (max-width < 420px) {
+@media (min-width: 550px) {
     main {
         max-width: 10vw;
         row-gap: 23px;
